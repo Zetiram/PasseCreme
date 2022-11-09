@@ -1,0 +1,147 @@
+:root {
+
+	--original-orange: rgb(255,173,0);;
+    --organge-dark: rgb(255, 95, 31);
+}
+
+@font-face{
+	font-family: TitleFont;
+	src: url('./fonts/Oswald/Oswald-Regular.ttf');
+}
+
+@font-face{
+	font-family: TextFont;
+	src: url('./fonts/Barlow/Barlow-Regular.ttf');
+}
+
+.nav-title, .main-title, .Lousanne, .FindUs-title, .instagram-section_title, .Schedule__Schedule-Title, .about-us_a, .find-us_a {
+	font-family: TitleFont;
+}
+
+
+	.nav-cont {
+		margin-bottom: 30px;
+		box-shadow: 0px -4px 12px;
+	}
+
+	.ShortCuts {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.ShortCuts__transport {
+		display: flex;
+		align-items: center;
+	}
+
+		.ShortCuts__nav-title-section {
+		display: flex;
+		justify-content: space-around;
+	}
+
+
+	.ShortCuts__nav-title-section--logoTD {
+		height: 48px;
+		width:  48px;
+		margin-top: 4.2%;
+		display: inherit;
+		margin-left: -28%;
+
+	}
+
+	.ShortCuts__transport {
+		display: flex;
+	justify-content: center;
+	}
+
+
+	.ShortCuts__find-us-section {
+		margin-left: auto;
+		margin-right: -50%;
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		height: 355px;
+	}
+
+	.ShortCutBottom {
+		display: none;
+	}
+
+
+	.Slider {
+		max-width: 80%;
+		height: 350px;
+		box-shadow: 0px 3px 18px -5px;
+		border-radius: 5px;
+	}
+
+	.AboutUs {
+		margin: 0 85px;
+		margin-bottom: 40px;
+
+	}
+
+	.AboutUs__Lousanne {
+		margin-top: 20px;
+		font-size: 20px;
+	}
+
+	.AboutUs__aboutUs-container--Text {
+		font-size: 20px;
+		margin: 0 45px;
+	}
+
+	.FindUs__title {
+		font-size: 20px;
+	}
+
+	iframe {
+		width: 81%;
+		border-radius: 5px;
+		box-shadow: 0px 1px 10px 0px;
+	}
+
+	.Inst-Schd  {
+		margin-top: 30px;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+	}
+
+	.Inst-Schd__InstContainer {
+		height: 60px;
+	}
+
+	.Inst-Schd__InstContainer--Link {
+		margin-top: 30px;
+	}
+
+	.LogoF {
+		display: flex;
+		justify-content: center;
+		box-shadow: 0px 4px 12px;
+
+	}
+
+	.logoF_section {
+		margin-top: 5px;
+		margin-left: 5%;
+	}
+
+	.logoF__image {
+	width: 70px;
+	height: 70px;
+	border-radius: 90px;
+
+
+	}
+}
+
+
+
+
+
+

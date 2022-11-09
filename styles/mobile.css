@@ -1,0 +1,238 @@
+:root {
+
+	--original-orange: rgb(255,173,0);;
+    --organge-dark: rgb(255, 95, 31);
+}
+
+@font-face{
+	font-family: TitleFont;
+	src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
+
+@font-face{
+	font-family: TextFont;
+	src: url('../fonts/Barlow/Barlow-Regular.ttf');
+}
+
+.nav-title, .main-title, .Lousanne, .FindUs-title, .instagram-section_title, .Schedule__Schedule-Title, .about-us_a, .find-us_a {
+	font-family: TitleFont;
+}
+
+
+p{
+	font-family: 'TextFont';
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+margin:0px;
+padding:0px;
+font-size:15px;
+}
+
+a {
+	text-decoration: none;
+	color: #323232;
+
+}
+
+.logoTD {
+	display: none;
+}
+
+.ShortCuts__nav-title-section{
+	text-align: center;
+}
+
+/*.ShortCuts {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 15px;
+}*/
+
+.ShortCuts__transport {
+	display: none;
+}
+
+.ShortCutBottom__About-us-Section {
+	margin-top: 3px;
+	width: 48px;
+	height: 48px;
+	border-radius: 90px;
+}
+
+
+.ShortCuts__about-us-section{
+	margin-right: 10px;
+}
+
+.ShortCuts__nav-title-section--logoTD {
+	display: none;
+	margin-bottom: 2px;
+    height: 60px;
+    width: 65px;
+    margin-top: 1.7%;
+    border-radius:  90px;
+}
+
+.ShortCuts__about-us-section--Content {
+	margin-bottom: -10px;
+}
+
+.ShortCuts__find-us-section--Content {
+	flex-grow: 2;
+	padding-top: 2px;
+}
+
+.ShortCuts__about-us-section--Content:hover, .ShortCuts__find-us-section--Content:hover{
+	 transition: all 0.4s ease;
+	color: rgb(237, 90, 31);
+}
+
+.ShortCutBottom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0px 8px 15px 0px;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	bottom: 0;
+}
+
+.ShortCutBottom__Logo {
+	margin-top: 3px;
+}
+
+.ShortCutBottom__Logo--Img {
+	border-radius: 90px;
+}
+
+.ShortCutBottom__About-us-Section {
+	margin-bottom: 2px;
+}
+
+.Us-container-section {
+	flex-grow: 1;
+}
+
+.ShortCutBottom__About-us-Section, .ShortCutBottom__Find-us-Section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.about-us_a, .find-us_a {
+	font-size: 16px;
+}
+
+
+.carrousel {
+	display: none;
+}
+
+
+.Slider{
+	display: flex;
+
+	max-width: 600px;
+	height: 300px;
+	width: 100%;
+	overflow: scroll;
+	scroll-snap-type: x mandatory;
+	margin-bottom: 0px;
+
+	background-color: black;
+}
+
+.Slider__Photo {
+	width: 100%;
+	scroll-snap-align: center;
+	border-radius: 10px;
+}
+
+
+.carrousel__PhotoContainer--img, .Slider__Photo {
+	margin: 0 15px;
+}
+
+.AboutUs__Section--Title {
+	background: -webkit-linear-gradient(232deg, rgb(255,173,0), rgb(237, 90, 31));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.AboutUs__Section, .AboutUs__Lousanne, .AboutUs__aboutUs-container--Text, .FindUs {
+	text-align: center;
+}
+
+.Lousanne {
+	font-size: 18px;
+}
+
+.AboutUs__aboutUs-container--Text {
+	margin: 0 15px;
+	margin-bottom: 15px;
+}
+
+.FindUs__border {
+	width: 50px;
+	margin: 0 auto;
+	border-top: black 3px solid;
+}
+
+.FindUs-title {
+	font-size: 18px;
+}
+
+
+iframe {
+	width: 100%;
+	background-color: darkgray;
+}
+
+.FindUs__mapDesktop {
+	display: none;
+}
+
+.Inst-Schd {
+	text-align: center;
+}
+
+.Inst-Schd__InstContainer{
+	height: 120px;
+}
+
+.Inst-Schd__InstContainer--Link{
+	margin-top: 5px;
+}
+
+.Schedule__table {
+	display: flex;
+	justify-content: center;
+	background-color: linear-gradient(232egb, rgb(255,173,0), rgb(237, 90, 31));
+	margin-bottom: 60px;
+
+}
+
+.LogoF {
+	display: none;
+}
+
+.Bottom__Logo--Img {
+	border-radius: 90px;
+}
+
+@media(min-width: 412px) {
+	.photo {
+	margin: 0 30px;
+}
+}
+

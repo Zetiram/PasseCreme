@@ -1,0 +1,145 @@
+   .ShortCuts__nav-title-section--logoTD{
+    height: 60px;
+    width: 65px;
+    margin-top: 0.3%;
+  }
+
+  .ShortCutBottom__About-us-Section--Content, .ShortCutBottom__Find-us-Section--Content{
+    font-size: 20px;
+  }
+
+   .ShortCuts {
+    margin: 0px 12.5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ShortCuts__transport {
+    margin-right: 4%;
+  }
+
+  .Carrousel__Dots--Dot{
+    cursor: pointer;
+  }
+
+  .AboutUs {
+    margin: 0 30% 40px;
+  }
+
+  .AboutUs__aboutUs-container--Text {
+    font-size: 25;
+  }
+
+ .Lousanne, .FindUs-title, .schedule-title, .instagram-section_title {
+    font-size: 20px;
+  }
+
+  .FindUs__mapMobile {
+    display: none;
+  }
+
+
+
+  .container {
+    height: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+ 
+ .mapDesktop {
+  display: initial;
+ }
+
+  iframe {
+    width: 73%;
+  }
+
+  .Inst-Schd{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Schedule__table--td {
+    font-size: 20px;
+  }
+
+  .logoF_section {
+    margin-left: 0px;
+  }
+
+  /**/
+
+  .img {
+    height: 624px;
+    width: 30px;
+
+  }
+
+  .slider {
+  display: none;
+}
+
+.carrousel {
+  display: initial;
+  width: 90%;
+  max-width: 120em;
+  padding: 2em;
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.carrousel__PhotoContainer {
+  width: 1000%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #393939;
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+
+.carrousel__PhotoContainer--img{
+  margin-left: 50px;
+  width: calc( 100% / 10 - 10em);
+  min-height: 1vh;
+  color: #393939;
+  transition: all 0.4s ease;
+  border-radius: 1em;
+}
+
+.Carrousel__Dots {
+  width: 100%;
+  margin: 1em 0 0;
+  padding: 0.4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.Carrousel__Dots--Dot {
+  width: 2em;
+  height: 2em;
+  margin: 1em 1em 0;
+  color: #393939;
+  transition: all 0.6s ease;
+  border-radius: 1em;
+  background-color: #393939;
+}
+
+.Carrousel__Dots--Dot.activo {
+  background-color:rgb(237, 90, 31)
+}
+
+.Carrousel__Dots--Dot:hover, .Carrousel__Dots--Dotactivo:hover {
+  background-color: rgb(255,173,0)
+
+
+}
+
+
